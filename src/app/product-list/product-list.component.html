@@ -1,0 +1,49 @@
+<div class="content" >
+	<!-- <div class="cnt-btn">
+		<a href="">Free Shipping</a>
+	</div>
+	<div class="cnt-btn">
+		<a href="">Community</a>
+	</div>
+	<div class="cnt-btn">
+		<a href="">$1 No Reserve</a>
+	</div>
+	<div class="cnt-btn">
+		<a href="">Ending Soon</a>
+	</div> -->
+	<div class="clear">
+	<div class="cnt-main">
+	<div class="grid">
+	<div class="grid-img">
+		<a href="details.html"><img src="https://i.imgur.com/zXROXme.jpg" alt=""/></a>
+	</div>
+	<div class="grid-para">
+		<h2><p> Store 1975</p></h2>
+		<h3>Ultraboost 4.0</h3>
+		<p>Giày ADIDAS ULTRA BOOST Chính Hãng một trong những dòng giày thể thao đỉnh nhất, chạy bộ siêu nhẹ, siêu êm</p>
+		<div class="btn top">
+		<a href="details.html">Details&nbsp;<img src="https://i.imgur.com/37YkEf1.png"></a>
+		</div>
+	</div>
+	<div class="clear"></div>
+	</div>
+</div>
+<br>
+<div id="hmm"> <h1>Danh sách Sản Phẩm Bán Chạy </h1>
+</div>
+<div class="cnt-main btm">
+	<div class="section group">
+				
+				<div class="grid_1_of_3 images_1_of_3" *ngFor="let product of products">
+					 <a href=""><img src="{{product.img}}" alt=""/></a>
+					 <a href=""><h3>{{product.name}}</h3></a>
+					 <div class="cart-b">
+					<span class="price left"><sup>$91.00</sup><sub></sub></span>
+				   <div class="btn top-right right"><a routerLink="/product/detail/{{product.id}}">Chi Tiết</a></div>
+				    <div class="btn top-right right"><a routerLink="details.html">Add to Cart</a></div>
+				    <div class="clear"></div>
+				 </div>
+				</div>
+			</div>
+</div>
+</div>   
